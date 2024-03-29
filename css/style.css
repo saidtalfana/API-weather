@@ -7,19 +7,20 @@ body{
     height :100vh;
     margin:0;
     padding:0;
-    background-color:#00FFF0;
-    display:flex;
+    background: linear-gradient(113deg, rgb(31, 207, 195) 0.00%, rgb(31, 145, 207) 70.37%);    display:flex;
     justify-content:center;
     align-items:center;
+}
+#firstdiv{
+  margin-right: 15px;
 }
 
 .wrapper{
 width :60%;
 height :50vh;
 border-radius: 15px;
-box-shadow: 10px 10px;
-border: 2px yellow solid;
-background-color:#4DE8DF;
+box-shadow: 0 4px 8px 0 ;
+background-color:rgba(77, 232, 223, .5);
 display:flex;
 flex-direction:column;
 
@@ -31,9 +32,9 @@ height :60vh;
 justify-content:space-around;
 align-items:center;
 }
-#img{
-width :150px;
-height :150px;
+.icons{
+width :70px;
+height :65px;
 }
 .div1{
 width :100%;
@@ -69,21 +70,62 @@ align-items:center;
  }
 .div01{
 width: 150px;
-height: 87px;
-background-color:#1EFFC9;
+height: 90px;
+background-color:rgba(77, 232, 223, .8);
 border-radius: 12px;
 border: 1px gold solid;
 display:flex; 
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
 }
 .div02{
 
-
-/* background-color:white; */
+height: 70px;
 display:flex; 
 flex-direction:column;
 justify-content:space-between;
-align-items:center;
+align-items:start;
 
 } 
+.search_input{
+    border: none;
+    border-radius: 6px;
+    border-bottom: 2px yellow solid ;     padding: 7px;
+    background-color: rgb(180, 223, 247);
+
+}
+.search_button{
+    border: none;
+border-bottom: 2px yellow solid ; 
+    padding: 7px;
+    color: white;
+    border-radius: 6px;
+    background-color:#4784ed;
+}
+
+.lastchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 3px yellow solid; */
+    border-radius: 12px;
+}
+.lastdiv{
+    width: 5%;
+    height: 50%;
+    background-color: #4DE8DF;
+    background-color:rgba(77, 232, 223, .2);
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0;
+
+    align-items: center;
+}
+#lastdiv{
+margin-left: 15px;
+}
